@@ -6,7 +6,7 @@
 
 #container {
   height: 100vh;
-  background: #B34100;
+  background: #b34100;
   padding: 0;
 }
 #container nav.navbar {
@@ -14,12 +14,12 @@
 }
 
 #menu {
-  background-color: #00FFFF;
+  background-color: #00ffff;
 }
 
 .myCarousel {
   height: 400px;
-  background-color: #00FFFF;
+  background-color: #00ffff;
   background-size: cover;
 }
 
