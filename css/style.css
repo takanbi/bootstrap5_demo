@@ -1,14 +1,56 @@
-.container {
-  height: 100vh;
-  background: #0d6efd;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.container-fluid {
+#container {
   height: 100vh;
-  background: #0d6efd;
+  background: #B34100;
+  padding: 0;
+}
+#container nav.navbar {
+  padding: 0.75em 2em;
 }
 
-.test {
-  width: 80%;
-  height: 300px;
+#menu {
+  background-color: #00FFFF;
+}
+
+.myCarousel {
+  height: 400px;
+  background-color: #00FFFF;
+  background-size: cover;
+}
+
+.myCarousel:nth-child(1) {
+  background-image: url("../images/tunjiakanbi_Cyanotype_printing_portrait_art_Graphic_design_po_3860dea2-b06c-4798-b2f3-e38661fedeb2_0.png");
+}
+
+.myCarousel:nth-child(2) {
+  background-image: url("../images/tunjiakanbi_Cyanotype_printing_portrait_art_Graphic_design_po_3860dea2-b06c-4798-b2f3-e38661fedeb2_1.png");
+}
+
+.myCarousel:nth-child(3) {
+  background-image: url("../images/tunjiakanbi_Cyanotype_printing_portrait_art_Graphic_design_po_3860dea2-b06c-4798-b2f3-e38661fedeb2_2.png");
+}
+
+.myCarousel:nth-child(4) {
+  background-image: url("../images/tunjiakanbi_Cyanotype_printing_portrait_art_Graphic_design_po_3860dea2-b06c-4798-b2f3-e38661fedeb2_3.png");
+}
+
+.myCarousel:nth-child(5) {
+  background-image: url("../images/tunjiakanbi_Cyanotype_printing_portrait_art_Graphic_design_po_c94f4bce-ecfd-42a7-a616-11ff6501e5cc_0.png");
+}
+
+.myCarousel:nth-child(6) {
+  background-image: url("../images/tunjiakanbi_Cyanotype_printing_portrait_art_Graphic_design_po_c94f4bce-ecfd-42a7-a616-11ff6501e5cc_1.png");
+}
+
+.myCarousel:nth-child(7) {
+  background-image: url("../images/tunjiakanbi_Cyanotype_printing_portrait_art_Graphic_design_po_c94f4bce-ecfd-42a7-a616-11ff6501e5cc_2.png");
+}
+
+.myCarousel:nth-child(8) {
+  background-image: url("../images/tunjiakanbi_Cyanotype_printing_portrait_art_Graphic_design_po_c94f4bce-ecfd-42a7-a616-11ff6501e5cc_3.png");
 }/*# sourceMappingURL=style.css.map */
