@@ -27,7 +27,6 @@ $tunjiDark: #B34100;
     height: 400px;
     background-color: #00FFFF;
     background-size: cover;
-
 }
 .myCarousel:nth-child(1) {
     background-image: url("../images/tunjiakanbi_Cyanotype_printing_portrait_art_Graphic_design_po_3860dea2-b06c-4798-b2f3-e38661fedeb2_0.png");
@@ -53,6 +52,11 @@ $tunjiDark: #B34100;
 .myCarousel:nth-child(8) {
     background-image: url("../images/tunjiakanbi_Cyanotype_printing_portrait_art_Graphic_design_po_c94f4bce-ecfd-42a7-a616-11ff6501e5cc_3.png");
 }
-#carouselExampleIndicators {
-    
+#carouselExampleIndicators {//fixed position
+    position: relative;
+    top: 4em; 
+    .carousel-inner {
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.4);//fixed box-shadow
+        border-radius: 1em;
+    }
 }

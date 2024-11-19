@@ -53,4 +53,13 @@
 
 .myCarousel:nth-child(8) {
   background-image: url("../images/tunjiakanbi_Cyanotype_printing_portrait_art_Graphic_design_po_c94f4bce-ecfd-42a7-a616-11ff6501e5cc_3.png");
+}
+
+#carouselExampleIndicators {
+  position: relative;
+  top: 4em;
+}
+#carouselExampleIndicators .carousel-inner {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 1em;
 }/*# sourceMappingURL=style.css.map */
