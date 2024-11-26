@@ -98,47 +98,206 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Layered Paper 1</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/tunjiakanbi_object_subject_layered_paper_feature_--v_5.2_11211908-5a8d-401f-b894-565c2c2208f1_2.png"
+                            class="card-img-top img-fluid img-thumbnail" alt="...">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Layered Paper 2</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/tunjiakanbi_object_subject_layered_paper_feature_--v_5.2_11211908-5a8d-401f-b894-565c2c2208f1_3.png"
+                            class="card-img-top img-fluid img-thumbnail" alt="...">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Layered Paper 3</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/tunjiakanbi_object_subject_layered_paper_feature_--v_5.2_51392067-25e7-4787-920c-45740179844f_0.png"
+                            class="card-img-top img-fluid img-thumbnail" alt="...">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Ends-->
         <div class="container" id="myCards">
             <div class="row">
                 <div class="col">
                     <div class="card">
                         <img src="images/tunjiakanbi_object_subject_layered_paper_feature_--v_5.2_11211908-5a8d-401f-b894-565c2c2208f1_2.png"
-                            class="card-img-top" alt="...">
+                            class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal1">
                         <div class="card-body">
                             <h5 class="card-title">Layered Paper 1</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis,
                                 necessitatibus.</p>
-                            <a href="#" class="btn btn-primary">Layered Paper 1</a>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal1">Layered Paper 1</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
                         <img src="images/tunjiakanbi_object_subject_layered_paper_feature_--v_5.2_11211908-5a8d-401f-b894-565c2c2208f1_3.png"
-                            class="card-img-top" alt="...">
+                            class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal2">
                         <div class="card-body">
                             <h5 class="card-title">Layered Paper 2</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis,
                                 necessitatibus.</p>
-                            <a href="#" class="btn btn-primary">Layered Paper 2</a>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal2">Layered Paper 2</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
                         <img src="images/tunjiakanbi_object_subject_layered_paper_feature_--v_5.2_51392067-25e7-4787-920c-45740179844f_0.png"
-                            class="card-img-top" alt="...">
+                            data-bs-toggle="modal" data-bs-target="#exampleModal3" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Layered Paper 3</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis,
                                 necessitatibus.</p>
-                            <a href="#" class="btn btn-primary">Layered Paper 3</a>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal3">Layered Paper 3</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container" id="myModal"></div>
+        <div class="container" id="myForm">
+            <h1 class="display-1">Contact Us</h1>
+            <form action="#">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="firstName" class="display-6">First Name:</label>
+                        <input type="text" class="form-control" id="firstName"
+                            placeholder="...please enter your first name">
+                    </div>
+                    <div class="col">
+                        <label for="lastName" class="display-6">Last Name:</label>
+                        <input type="text" class="form-control" id="lastName"
+                            placeholder="...please enter your last name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="eMail" class="display-6">Email:</label>
+                        <input type="email" class="form-control" id="eMail"
+                            placeholder="...please enter your email address">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone" class="display-6">Phone:</label>
+                        <input type="tel" class="form-control" id="phone"
+                            placeholder="...please enter your phone number">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="comments" class="display-6">Comments:</label>
+                        <textarea name="comment" id="comments" cols="30" rows="10" class="form-control"
+                            placeholder="...please provide us with a short message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-primary col-xl-3" id="submit">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="container-fluid d-flex justify-content-center align-items-center" id="myAccordion">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            My Accordion 1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorum consequatur
+                            quasi nisi doloribus labore ut ipsa alias explicabo ducimus. Sed nam nisi asperiores
+                            veritatis odit blanditiis fugit consequuntur expedita deleniti? Temporibus nihil odio
+                            sapiente hic veniam, in, dignissimos minima est magnam, nesciunt porro reiciendis dolore
+                            illo. Sit, quisquam autem.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            My Accordion 2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, a. Alias eligendi, ratione
+                            asperiores, laborum velit eos, voluptas sed delectus ea reprehenderit qui dolor totam
+                            soluta. Assumenda a dolores veritatis, minus consectetur ex, similique illum amet sit
+                            temporibus dolorum cum voluptate harum recusandae perspiciatis natus aliquid sequi nostrum.
+                            Atque, facere!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            My Accordion 3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore alias ratione expedita
+                            deleniti at maxime ipsa. Ex pariatur temporibus ratione, incidunt veniam distinctio
+                            laudantium harum. Nam id reiciendis facilis ipsum officiis dolores, itaque dolorum!
+                            Consequuntur magni expedita temporibus nobis, similique nesciunt, laboriosam qui dolore,
+                            quia assumenda aut quasi omnis provident.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
         integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
